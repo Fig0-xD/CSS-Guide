@@ -1,0 +1,22 @@
+div {
+    padding: 1px 2px 3px 4px;
+    border: 1px solid black;
+    margin: 5px 6px 7px 8px;
+}
+
+.first-box {
+    display:inline-block;
+    height: 300px;
+    width: 50%;
+    visibility: hidden;
+}
+
+.first-box+div {
+    display:inline-block;
+    background: red;
+    width:25%;
+}
+
+.first-box+div:hover{
+    background: green;
+}
